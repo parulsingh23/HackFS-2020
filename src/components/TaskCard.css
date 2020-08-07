@@ -1,0 +1,93 @@
+.TaskCard-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 8px 16px;
+    
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.TaskCard-beforeDivider {
+    display: flex;
+flex-direction: column;
+padding: 0px;
+width: 240px;
+margin: 0px 10px;
+}
+.TaskCard-Divider{
+    margin: 0px 10px;
+}
+
+.TaskCard-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #455266;
+
+}
+
+.TaskCard-desc {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+padding-left: 10px;
+color: #455266;
+
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.TaskCard-row {
+    display: flex;
+    flex-direction: row;
+    
+    margin: 0px 9px;
+
+}
+
+.TaskCard-mini-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    /* text-color */
+    color: #455266;
+    
+   
+    align-self: center;
+    margin: 4px 0px;
+    margin-right: 3px;
+}
+
+.TaskCard-deadline {
+    margin: 4px 0px;
+}
+
+.TaskCard-entry {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #000000;
+    align-self: center;
+    
+}

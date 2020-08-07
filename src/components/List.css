@@ -1,0 +1,24 @@
+.List-container {
+    background-color: #F5F8FA;
+    padding: 16px;
+    border-radius: 10px;
+    width: 335px;
+    
+
+    margin: 20px;
+}
+
+.List-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #455266;
+
+    
+    margin: 0px 16px;
+
+}

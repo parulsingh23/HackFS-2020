@@ -1,0 +1,36 @@
+.Edit-row {
+    display: flex;
+    width: 240px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    /* outline: 3px solid black; */
+}
+
+.entry {
+    margin: 0 0;
+}
+.popup {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+.pop {
+    width: 30px;
+    height: 30px;
+}
+.piece {
+    width: 50px;
+    height: 20px;
+}
+
+.piece {
+    width: 70px;
+    height: 20px;
+}
+
+.largepiece {
+    width: 100px;
+    height: 20px
+}
